@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64135B6822F5B21E000CB911 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64135B6722F5B21E000CB911 /* Default-568h@2x.png */; };
+		64135B6A22F5BD9E000CB911 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64135B6922F5BD9E000CB911 /* LibraryViewController.swift */; };
+		6462345622CB3816005F2BDA /* libACRCloud_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6462345422CB3816005F2BDA /* libACRCloud_IOS_SDK.a */; };
+		6462345722CB3816005F2BDA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6462345522CB3816005F2BDA /* libc++.tbd */; };
+		647A19F122F43D6600E432FE /* character.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 647A19F022F43D6600E432FE /* character.scnassets */; };
+		648A40AB22C2034F00A91D6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A40AA22C2034F00A91D6C /* AppDelegate.swift */; };
+		648A40AD22C2034F00A91D6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648A40AC22C2034F00A91D6C /* ViewController.swift */; };
+		648A40B522C2035700A91D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 648A40B322C2035700A91D6C /* LaunchScreen.storyboard */; };
+		649606E322F46B6D0026123A /* aj.png in Resources */ = {isa = PBXBuildFile; fileRef = 649606DA22F46B670026123A /* aj.png */; };
+		649606E422F46B6D0026123A /* sporty_granny.png in Resources */ = {isa = PBXBuildFile; fileRef = 649606DB22F46B680026123A /* sporty_granny.png */; };
+		649606E522F46B6D0026123A /* kachujin_g_rosales.png in Resources */ = {isa = PBXBuildFile; fileRef = 649606DC22F46B680026123A /* kachujin_g_rosales.png */; };
+		649606E622F46B6D0026123A /* bigvegas.png in Resources */ = {isa = PBXBuildFile; fileRef = 649606DD22F46B690026123A /* bigvegas.png */; };
+		649606E722F46B6D0026123A /* knight_d_pelegrini.png in Resources */ = {isa = PBXBuildFile; fileRef = 649606DE22F46B6A0026123A /* knight_d_pelegrini.png */; };
+		649606E822F46B6D0026123A /* mutant.png in Resources */ = {isa = PBXBuildFile; fileRef = 649606DF22F46B6A0026123A /* mutant.png */; };
+		649606E922F46B6D0026123A /* peasant_girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 649606E022F46B6B0026123A /* peasant_girl.png */; };
+		649606EA22F46B6D0026123A /* mremireh_o_desbiens.png in Resources */ = {isa = PBXBuildFile; fileRef = 649606E122F46B6C0026123A /* mremireh_o_desbiens.png */; };
+		649606EB22F46B6D0026123A /* theboss.png in Resources */ = {isa = PBXBuildFile; fileRef = 649606E222F46B6D0026123A /* theboss.png */; };
+		64AB0FA622E2ED4800223851 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64AB0FA322E2EBF400223851 /* API.swift */; };
+		64B29B2822F6D89D0079E217 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B29B2722F6D89D0079E217 /* logo.png */; };
+		64B29B3022F6E5660079E217 /* Asset 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B29B2F22F6E5650079E217 /* Asset 3.png */; };
+		64B29B3822F6ECE70079E217 /* BackgroundFinal.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B29B3722F6ECE70079E217 /* BackgroundFinal.png */; };
+		64B713EA22F66DC40037031B /* Close-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B713E622F66DC30037031B /* Close-128.png */; };
+		64B713EB22F66DC40037031B /* Images-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B713E722F66DC40037031B /* Images-128.png */; };
+		64B713EC22F66DC40037031B /* Command-Refresh-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B713E822F66DC40037031B /* Command-Refresh-128.png */; };
+		64B713ED22F66DC40037031B /* Circle-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B713E922F66DC40037031B /* Circle-128.png */; };
+		64B713EF22F6836F0037031B /* Add-New-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B713EE22F6836F0037031B /* Add-New-128.png */; };
+		64B713F222F6AC580037031B /* Artboard 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B713F022F6AC580037031B /* Artboard 1.png */; };
+		64B713F622F6BD820037031B /* white circles.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B713F422F6BD810037031B /* white circles.png */; };
+		64B713F722F6BD820037031B /* white arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 64B713F522F6BD820037031B /* white arrow.png */; };
+		64CB203822F5219A00203EA7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 648A40B622C2035700A91D6C /* Info.plist */; };
+		64CB205622F5464800203EA7 /* trackerDuck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CB205322F5464800203EA7 /* trackerDuck@2x.png */; };
+		64CB205722F5464800203EA7 /* trackerDuck@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CB205422F5464800203EA7 /* trackerDuck@3x.png */; };
+		64CB205822F5464800203EA7 /* trackerDuck.png in Resources */ = {isa = PBXBuildFile; fileRef = 64CB205522F5464800203EA7 /* trackerDuck.png */; };
+		64CB206722F5AAE400203EA7 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A9053E22CF04CA005A8E8F /* ARViewController.swift */; };
+		64CB206822F5AB3100203EA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D6F16722CF28C6008AEEAE /* Main.storyboard */; };
+		64CBDE4822CC8AB800F20F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CBDE4722CC8AB700F20F8D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64135B6722F5B21E000CB911 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		64135B6922F5BD9E000CB911 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		6462345422CB3816005F2BDA /* libACRCloud_IOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libACRCloud_IOS_SDK.a; sourceTree = "<group>"; };
+		6462345522CB3816005F2BDA /* libc++.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		6462345822CB383A005F2BDA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6462345922CB383A005F2BDA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6462345A22CB383A005F2BDA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		647A19F022F43D6600E432FE /* character.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = character.scnassets; sourceTree = "<group>"; };
+		648A40A722C2034F00A91D6C /* Music AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Music AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		648A40AA22C2034F00A91D6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		648A40AC22C2034F00A91D6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		648A40B422C2035700A91D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		648A40B622C2035700A91D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		649606DA22F46B670026123A /* aj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aj.png; sourceTree = "<group>"; };
+		649606DB22F46B680026123A /* sporty_granny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sporty_granny.png; sourceTree = "<group>"; };
+		649606DC22F46B680026123A /* kachujin_g_rosales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kachujin_g_rosales.png; sourceTree = "<group>"; };
+		649606DD22F46B690026123A /* bigvegas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigvegas.png; sourceTree = "<group>"; };
+		649606DE22F46B6A0026123A /* knight_d_pelegrini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight_d_pelegrini.png; sourceTree = "<group>"; };
+		649606DF22F46B6A0026123A /* mutant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mutant.png; sourceTree = "<group>"; };
+		649606E022F46B6B0026123A /* peasant_girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = peasant_girl.png; sourceTree = "<group>"; };
+		649606E122F46B6C0026123A /* mremireh_o_desbiens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mremireh_o_desbiens.png; sourceTree = "<group>"; };
+		649606E222F46B6D0026123A /* theboss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = theboss.png; sourceTree = "<group>"; };
+		64A9053E22CF04CA005A8E8F /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		64AB0FA322E2EBF400223851 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		64B29B2722F6D89D0079E217 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		64B29B2F22F6E5650079E217 /* Asset 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asset 3.png"; sourceTree = "<group>"; };
+		64B29B3722F6ECE70079E217 /* BackgroundFinal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackgroundFinal.png; sourceTree = "<group>"; };
+		64B713E622F66DC30037031B /* Close-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Close-128.png"; sourceTree = "<group>"; };
+		64B713E722F66DC40037031B /* Images-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Images-128.png"; sourceTree = "<group>"; };
+		64B713E822F66DC40037031B /* Command-Refresh-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Command-Refresh-128.png"; sourceTree = "<group>"; };
+		64B713E922F66DC40037031B /* Circle-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Circle-128.png"; sourceTree = "<group>"; };
+		64B713EE22F6836F0037031B /* Add-New-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Add-New-128.png"; sourceTree = "<group>"; };
+		64B713F022F6AC580037031B /* Artboard 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Artboard 1.png"; sourceTree = "<group>"; };
+		64B713F422F6BD810037031B /* white circles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white circles.png"; sourceTree = "<group>"; };
+		64B713F522F6BD820037031B /* white arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white arrow.png"; sourceTree = "<group>"; };
+		64CB205322F5464800203EA7 /* trackerDuck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trackerDuck@2x.png"; sourceTree = "<group>"; };
+		64CB205422F5464800203EA7 /* trackerDuck@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trackerDuck@3x.png"; sourceTree = "<group>"; };
+		64CB205522F5464800203EA7 /* trackerDuck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trackerDuck.png; sourceTree = "<group>"; };
+		64CBDE4722CC8AB700F20F8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D6F16722CF28C6008AEEAE /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2F1D4A622CB40D700F98F70 /* ACRCloudRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudRecognition.h; sourceTree = "<group>"; };
+		A2F1D4A722CB40D800F98F70 /* ACRCloudConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACRCloudConfig.h; sourceTree = "<group>"; };
+		A2F1D4A822CB419E00F98F70 /* mySecondApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mySecondApp-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		648A40A422C2034F00A91D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6462345722CB3816005F2BDA /* libc++.tbd in Frameworks */,
+				6462345622CB3816005F2BDA /* libACRCloud_IOS_SDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6462346122CB3D81005F2BDA /* acrcloud_local_db */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = acrcloud_local_db;
+			sourceTree = "<group>";
+		};
+		648A409E22C2034F00A91D6C = {
+			isa = PBXGroup;
+			children = (
+				64135B6722F5B21E000CB911 /* Default-568h@2x.png */,
+				6462345522CB3816005F2BDA /* libc++.tbd */,
+				6462345422CB3816005F2BDA /* libACRCloud_IOS_SDK.a */,
+				6462345822CB383A005F2BDA /* AudioToolbox.framework */,
+				6462345A22CB383A005F2BDA /* AVFoundation.framework */,
+				6462345922CB383A005F2BDA /* Security.framework */,
+				648A40A922C2034F00A91D6C /* Music AR */,
+				648A40A822C2034F00A91D6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		648A40A822C2034F00A91D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				648A40A722C2034F00A91D6C /* Music AR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		648A40A922C2034F00A91D6C /* Music AR */ = {
+			isa = PBXGroup;
+			children = (
+				A2F1D4A822CB419E00F98F70 /* mySecondApp-Bridging-Header.h */,
+				A2F1D4A722CB40D800F98F70 /* ACRCloudConfig.h */,
+				A2F1D4A622CB40D700F98F70 /* ACRCloudRecognition.h */,
+				648A40AA22C2034F00A91D6C /* AppDelegate.swift */,
+				648A40AC22C2034F00A91D6C /* ViewController.swift */,
+				64A9053E22CF04CA005A8E8F /* ARViewController.swift */,
+				64AB0FA322E2EBF400223851 /* API.swift */,
+				64135B6922F5BD9E000CB911 /* LibraryViewController.swift */,
+				64D6F16722CF28C6008AEEAE /* Main.storyboard */,
+				6462346122CB3D81005F2BDA /* acrcloud_local_db */,
+				64CBDE4722CC8AB700F20F8D /* Assets.xcassets */,
+				64B29B3722F6ECE70079E217 /* BackgroundFinal.png */,
+				64B29B2F22F6E5650079E217 /* Asset 3.png */,
+				64B29B2722F6D89D0079E217 /* logo.png */,
+				64B713F522F6BD820037031B /* white arrow.png */,
+				64B713F422F6BD810037031B /* white circles.png */,
+				64B713F022F6AC580037031B /* Artboard 1.png */,
+				64B713EE22F6836F0037031B /* Add-New-128.png */,
+				64B713E922F66DC40037031B /* Circle-128.png */,
+				64B713E622F66DC30037031B /* Close-128.png */,
+				64B713E822F66DC40037031B /* Command-Refresh-128.png */,
+				64B713E722F66DC40037031B /* Images-128.png */,
+				64CB205522F5464800203EA7 /* trackerDuck.png */,
+				64CB205322F5464800203EA7 /* trackerDuck@2x.png */,
+				64CB205422F5464800203EA7 /* trackerDuck@3x.png */,
+				649606DA22F46B670026123A /* aj.png */,
+				649606DD22F46B690026123A /* bigvegas.png */,
+				649606DC22F46B680026123A /* kachujin_g_rosales.png */,
+				649606DE22F46B6A0026123A /* knight_d_pelegrini.png */,
+				649606E122F46B6C0026123A /* mremireh_o_desbiens.png */,
+				649606DF22F46B6A0026123A /* mutant.png */,
+				649606E022F46B6B0026123A /* peasant_girl.png */,
+				649606DB22F46B680026123A /* sporty_granny.png */,
+				649606E222F46B6D0026123A /* theboss.png */,
+				647A19F022F43D6600E432FE /* character.scnassets */,
+				648A40B322C2035700A91D6C /* LaunchScreen.storyboard */,
+				648A40B622C2035700A91D6C /* Info.plist */,
+			);
+			path = "Music AR";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		648A40A622C2034F00A91D6C /* Music AR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 648A40B922C2035700A91D6C /* Build configuration list for PBXNativeTarget "Music AR" */;
+			buildPhases = (
+				648A40A322C2034F00A91D6C /* Sources */,
+				648A40A422C2034F00A91D6C /* Frameworks */,
+				648A40A522C2034F00A91D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Music AR";
+			productName = mySecondApp;
+			productReference = 648A40A722C2034F00A91D6C /* Music AR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		648A409F22C2034F00A91D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Tan Shin Jie";
+				TargetAttributes = {
+					648A40A622C2034F00A91D6C = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 648A40A222C2034F00A91D6C /* Build configuration list for PBXProject "Music AR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 648A409E22C2034F00A91D6C;
+			productRefGroup = 648A40A822C2034F00A91D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				648A40A622C2034F00A91D6C /* Music AR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		648A40A522C2034F00A91D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CB203822F5219A00203EA7 /* Info.plist in Resources */,
+				64B713EF22F6836F0037031B /* Add-New-128.png in Resources */,
+				64B713F622F6BD820037031B /* white circles.png in Resources */,
+				649606E822F46B6D0026123A /* mutant.png in Resources */,
+				64CB205622F5464800203EA7 /* trackerDuck@2x.png in Resources */,
+				648A40B522C2035700A91D6C /* LaunchScreen.storyboard in Resources */,
+				649606E422F46B6D0026123A /* sporty_granny.png in Resources */,
+				649606E622F46B6D0026123A /* bigvegas.png in Resources */,
+				64B713EA22F66DC40037031B /* Close-128.png in Resources */,
+				64B713EC22F66DC40037031B /* Command-Refresh-128.png in Resources */,
+				649606EB22F46B6D0026123A /* theboss.png in Resources */,
+				64CB205822F5464800203EA7 /* trackerDuck.png in Resources */,
+				647A19F122F43D6600E432FE /* character.scnassets in Resources */,
+				64CB206822F5AB3100203EA7 /* Main.storyboard in Resources */,
+				64B29B3022F6E5660079E217 /* Asset 3.png in Resources */,
+				649606E722F46B6D0026123A /* knight_d_pelegrini.png in Resources */,
+				649606E522F46B6D0026123A /* kachujin_g_rosales.png in Resources */,
+				649606E922F46B6D0026123A /* peasant_girl.png in Resources */,
+				64135B6822F5B21E000CB911 /* Default-568h@2x.png in Resources */,
+				64CBDE4822CC8AB800F20F8D /* Assets.xcassets in Resources */,
+				649606E322F46B6D0026123A /* aj.png in Resources */,
+				64B713EB22F66DC40037031B /* Images-128.png in Resources */,
+				64B29B3822F6ECE70079E217 /* BackgroundFinal.png in Resources */,
+				64B713F222F6AC580037031B /* Artboard 1.png in Resources */,
+				649606EA22F46B6D0026123A /* mremireh_o_desbiens.png in Resources */,
+				64B713F722F6BD820037031B /* white arrow.png in Resources */,
+				64B29B2822F6D89D0079E217 /* logo.png in Resources */,
+				64B713ED22F66DC40037031B /* Circle-128.png in Resources */,
+				64CB205722F5464800203EA7 /* trackerDuck@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		648A40A322C2034F00A91D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CB206722F5AAE400203EA7 /* ARViewController.swift in Sources */,
+				64135B6A22F5BD9E000CB911 /* LibraryViewController.swift in Sources */,
+				648A40AD22C2034F00A91D6C /* ViewController.swift in Sources */,
+				648A40AB22C2034F00A91D6C /* AppDelegate.swift in Sources */,
+				64AB0FA622E2ED4800223851 /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		648A40B322C2035700A91D6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				648A40B422C2035700A91D6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		648A40B722C2035700A91D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "mySecondApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		648A40B822C2035700A91D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "mySecondApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		648A40BA22C2035700A91D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W8V3942U4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Music AR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanshinjie.mySecondApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		648A40BB22C2035700A91D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9W8V3942U4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Music AR/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanshinjie.mySecondApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		648A40A222C2034F00A91D6C /* Build configuration list for PBXProject "Music AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648A40B722C2035700A91D6C /* Debug */,
+				648A40B822C2035700A91D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		648A40B922C2035700A91D6C /* Build configuration list for PBXNativeTarget "Music AR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				648A40BA22C2035700A91D6C /* Debug */,
+				648A40BB22C2035700A91D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 648A409F22C2034F00A91D6C /* Project object */;
+}
